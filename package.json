@@ -1,0 +1,22 @@
+{
+  "name": "a11y-yeah-burger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.7",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "watch": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss src/style.css -o style.css",
+    "watch": "watch 'npm run build' ."
+  },
+  "author": "",
+  "license": "ISC"
+}
