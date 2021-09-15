@@ -33,17 +33,15 @@
     </header>
     <main class="w-full mx-auto" tabindex="-1" id="maincontent">
 
-      <h1 class="sr-only">Yeah Burger</h1>
 
       <section class="w-full bg-black relative overflow-hidden bg-cover px-4 " style="background-image:url('./src/img/yeah-burger-banner.jpg');background-position:20% 50%;">
+        <h1 class="sr-only">Yeah Burger</h1>
         <div class="absolute inset-0 bg-black z-0 opacity-70"></div>
-
-        <div class="text-white max-w-sm sm:max-w-screen-md mx-auto min-h-50vh items-center relative z-10 grid sm:grid-cols-2 gap-6 my-auto">
-          <div class="space-y-4 col-start-2">
-          <p class="text-5xl font-bold">Your new favourite burger</p>
-          <p class="text-2xl">Now open until 11pm</p>
-          </div>
-        </div>
+          <div class="text-white max-w-sm sm:max-w-screen-md mx-auto min-h-50vh items-center relative z-10 grid sm:grid-cols-2 gap-6 my-auto">
+            <div class="space-y-4 col-start-2">
+            <p class="text-5xl font-bold">Your new favourite burger</p>
+            <p class="text-2xl">Now open until 11pm</p>
+            </div>
         </div>
       </section>
 
@@ -134,7 +132,7 @@
                   <button class="flex justify-between items-center w-full">
                     <span class="underline">Onion rings</span>
                     <span class="font-bold">$3</span>
-                  </a>
+                  </button>
                 </li>
                 <li>
                   <button class="flex justify-between items-center w-full">
@@ -146,7 +144,7 @@
                   <button class="flex justify-between items-center w-full">
                     <span class="underline">Salad</span>
                     <span class="font-bold">$3</span>
-                  </a>
+                  </button>
                 </li>
               </ul>
             </div>
@@ -164,7 +162,7 @@
                   <button class="flex justify-between items-center w-full">
                     <span class="underline">Juice</span>
                     <span class="font-bold">$1</span>
-                  </a>
+                  </button>
                 </li>
                 <li>
                   <button class="flex justify-between items-center w-full">
@@ -185,10 +183,10 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             <div class="bg-white p-6 rounded-xl h-full flex flex-col">
 
-              <span class="flex justify-between items-center">
+              <div class="flex justify-between items-center">
                 <h3 class="text-lg font-bold">Single Combo</h3>
                 <img src="/src/img/single-burger@2x.png" style="width:40px;height:40px;" alt="">
-              </span>
+              </div>
               <!-- Icon -->
               <p class="sr-only">This combo includes</p>
 
@@ -205,10 +203,10 @@
             </div>
             <div class="bg-white p-6 rounded-xl h-full flex flex-col">
 
-              <span class="flex justify-between items-center">
+              <div class="flex justify-between items-center">
                 <h3 class="text-lg font-bold">Double Combo</h3>
                 <img src="/src/img/double-burger@2x.png" style="width:40px;height:40px;" alt="">
-              </span>
+              </div>
               <!-- Icon -->
               <p class="sr-only">This combo includes</p>
               <ul class="pt-2 space-y-2">
@@ -225,10 +223,10 @@
 
             <div class="bg-white p-6 rounded-xl h-full flex flex-col">
 
-              <span class="flex justify-between items-center">
+              <div class="flex justify-between items-center">
                 <h3 class="text-lg font-bold">Mini Combo</h3>
                 <img src="/src/img/mini-burger@2x.png" style="width:40px;height:40px;" alt="">
-              </span>
+              </div>
 
               <!-- Icon -->
               <p class="sr-only">This combo includes</p>
@@ -315,6 +313,5 @@
           </ul>
         </nav>
     </footer>
-  </div>
   </body>
 </html>
